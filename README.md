@@ -1,8 +1,8 @@
-# Eleventy Midnight Blog Starter
+# Applied Research Equity
 
-Minimalist dark mode starter template for 11ty with support for jsfiddle embeds and prismjs syntax highlighting.
+[![Laravel Forge Site Deployment Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fforge.laravel.com%2Fsite-badges%2F47b560ae-a754-4c28-bea0-92362c9a3ec6%3Fdate%3D1%26commit%3D1&style=plastic)](https://forge.laravel.com/servers/714316/sites/2088775)
 
-Demo [https://11ty-midnight.netlify.app](https://11ty-midnight.netlify.app)
+> The investment we make in ourselves.
 
 ## Features
 
