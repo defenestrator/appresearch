@@ -1,0 +1,21 @@
+{
+  "title": "Applied Research Equity",
+  "url": "https://appliedresearchequity.com/",
+  "language": "en",
+  "description": "Minimalist dark blog built with 11ty",
+  "feed": {
+    "subtitle": "Another tech blog you will pretend to have read",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://appliedresearchequity.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://appliedresearchequity.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Jeremy Jacob Anderson",
+    "email": "jeremy@appliedresearchequity.com",
+    "url": "https://appliedresearchequity.com/about-me/"
+  }
+}

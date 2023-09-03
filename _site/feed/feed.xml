@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Applied Research Equity</title>
+	<subtitle>Another tech blog you will pretend to have read</subtitle>
+	
+	<link href="https://appliedresearchequity.com/feed/feed.xml" rel="self"/>
+	<link href="https://appliedresearchequity.com/"/>
+	<updated>2021-08-06T00:00:00Z</updated>
+	<id>https://appliedresearchequity.com/</id>
+	<author>
+		<name>Jeremy Jacob Anderson</name>
+		<email>jeremy@appliedresearchequity.com</email>
+	</author>
+	
+	<entry>
+		<title>Features</title>
+		<link href="https://appliedresearchequity.com/posts/features/"/>
+		<updated>2021-08-06T00:00:00Z</updated>
+		<id>https://appliedresearchequity.com/posts/features/</id>
+		<content type="html">&lt;h2 id=&quot;jsfiddle&quot; tabindex=&quot;-1&quot;&gt;JSFiddle &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/features/#jsfiddle&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://jsfiddle.net/sidswork/apk0wg96/embedded/js,html,result/dark/&quot; allowFullScreen=&quot;allowfullscreen&quot; frameBorder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;h2 id=&quot;code&quot; tabindex=&quot;-1&quot;&gt;Code &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/features/#code&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;highlight-certain-blocks-of-lines&quot; tabindex=&quot;-1&quot;&gt;Highlight certain blocks of lines &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/features/#highlight-certain-blocks-of-lines&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;mark class=&quot;highlight-line highlight-line-active&quot;&gt;	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/mark&gt;
+&lt;mark class=&quot;highlight-line highlight-line-active&quot;&gt;	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/mark&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Comment here...&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;highlight-diffs&quot; tabindex=&quot;-1&quot;&gt;Highlight diffs &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/features/#highlight-diffs&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// this is some changed code&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;ins class=&quot;highlight-line highlight-line-add&quot;&gt;    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/ins&gt;
+&lt;del class=&quot;highlight-line highlight-line-remove&quot;&gt;    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/del&gt;
+&lt;ins class=&quot;highlight-line highlight-line-add&quot;&gt;    counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/ins&gt;
+&lt;del class=&quot;highlight-line highlight-line-remove&quot;&gt;    counter&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/del&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Markdown Guide</title>
+		<link href="https://appliedresearchequity.com/posts/markdown-guide/"/>
+		<updated>2021-08-05T00:00:00Z</updated>
+		<id>https://appliedresearchequity.com/posts/markdown-guide/</id>
+		<content type="html">&lt;h1 id=&quot;h1-heading&quot; tabindex=&quot;-1&quot;&gt;h1 Heading &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#h1-heading&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;h2-heading&quot; tabindex=&quot;-1&quot;&gt;h2 Heading &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#h2-heading&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;h3-heading&quot; tabindex=&quot;-1&quot;&gt;h3 Heading &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#h3-heading&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id=&quot;h4-heading&quot; tabindex=&quot;-1&quot;&gt;h4 Heading &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#h4-heading&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;h5 id=&quot;h5-heading&quot; tabindex=&quot;-1&quot;&gt;h5 Heading &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#h5-heading&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h5&gt;
+&lt;h6 id=&quot;h6-heading&quot; tabindex=&quot;-1&quot;&gt;h6 Heading &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#h6-heading&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h6&gt;
+&lt;h2 id=&quot;horizontal-rules&quot; tabindex=&quot;-1&quot;&gt;Horizontal Rules &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#horizontal-rules&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;emphasis&quot; tabindex=&quot;-1&quot;&gt;Emphasis &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#emphasis&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;This text will be italic&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;This will also be italic&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This text will be bold&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;This will also be bold&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You &lt;strong&gt;can&lt;/strong&gt; combine them&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;Strikethrough&lt;/s&gt;&lt;/p&gt;
+&lt;h2 id=&quot;blockquotes&quot; tabindex=&quot;-1&quot;&gt;Blockquotes &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#blockquotes&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Blockquotes can be written like this&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;lists&quot; tabindex=&quot;-1&quot;&gt;Lists &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#lists&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Sometimes you want numbered lists:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;One&lt;/li&gt;
+&lt;li&gt;Two&lt;/li&gt;
+&lt;li&gt;Three&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Sometimes you want bullet points:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start a line with a star&lt;/li&gt;
+&lt;li&gt;Profit!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Alternatively,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dashes work just as well&lt;/li&gt;
+&lt;li&gt;And if you have sub points, put two spaces before the dash or star:
+&lt;ul&gt;
+&lt;li&gt;Like this&lt;/li&gt;
+&lt;li&gt;And this&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;code&quot; tabindex=&quot;-1&quot;&gt;Code &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#code&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Single line &lt;code&gt;var example = true&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Multiple lines&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;if (isAwesome){
+  return true
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And if you&#39;d like to use syntax highlighting, include the language:&lt;/p&gt;
+&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;isAwesome&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;tables&quot; tabindex=&quot;-1&quot;&gt;Tables &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#tables&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Option&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;row 1&lt;/td&gt;
+&lt;td&gt;Lorem ipsum&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;row 2&lt;/td&gt;
+&lt;td&gt;Hello World&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;row 3&lt;/td&gt;
+&lt;td&gt;Markdown syntax&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Right aligned columns&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:right&quot;&gt;Option&lt;/th&gt;
+&lt;th style=&quot;text-align:right&quot;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;row 1&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;Lorem ipsum&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;row 2&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;Hello World&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;row 3&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;Markdown syntax&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;links&quot; tabindex=&quot;-1&quot;&gt;Links &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#links&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;images&quot; tabindex=&quot;-1&quot;&gt;Images &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/markdown-guide/#images&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://octodex.github.com/images/stormtroopocat.png&quot; alt=&quot;stormtroopocat&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>This is my fourth post.</title>
+		<link href="https://appliedresearchequity.com/posts/fourthpost/"/>
+		<updated>2021-08-04T00:00:00Z</updated>
+		<id>https://appliedresearchequity.com/posts/fourthpost/</id>
+		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
+&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
+&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/fourthpost/#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>This is my third post.</title>
+		<link href="https://appliedresearchequity.com/posts/thirdpost/"/>
+		<updated>2021-08-03T00:00:00Z</updated>
+		<id>https://appliedresearchequity.com/posts/thirdpost/</id>
+		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;ins class=&quot;highlight-line highlight-line-add&quot;&gt;	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/ins&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;del class=&quot;highlight-line highlight-line-remove&quot;&gt;	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/del&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
+&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/thirdpost/#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>This is my second post.</title>
+		<link href="https://appliedresearchequity.com/posts/secondpost/"/>
+		<updated>2021-08-02T00:00:00Z</updated>
+		<id>https://appliedresearchequity.com/posts/secondpost/</id>
+		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
+&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/secondpost/#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://appliedresearchequity.com/posts/firstpost/&quot;&gt;First post&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://appliedresearchequity.com/posts/thirdpost/&quot;&gt;Third post&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
+&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>This is my first post.</title>
+		<link href="https://appliedresearchequity.com/posts/firstpost/"/>
+		<updated>2021-08-01T00:00:00Z</updated>
+		<id>https://appliedresearchequity.com/posts/firstpost/</id>
+		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
+&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
+&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://appliedresearchequity.com/posts/firstpost/#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;// this is a command&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;function myCommand() {&lt;/span&gt;
+&lt;mark class=&quot;highlight-line highlight-line-active&quot;&gt;	let counter = 0;&lt;/mark&gt;
+&lt;mark class=&quot;highlight-line highlight-line-active&quot;&gt;	counter++;&lt;/mark&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;// Test with a line break above this line.&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;console.log(&#39;Test&#39;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+</content>
+	</entry>
+</feed>

@@ -1,0 +1,46 @@
+{
+  "name": "appresearch",
+  "version": "69.4.20",
+  "description": "The investment we make in ourselves",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defenestrator/appresearch.git"
+  },
+  "keywords": [
+    "bullshit",
+    "tech",
+    "jargon",
+    "lies",
+    "damned",
+    "lies",
+    "statistics",
+    "blog"
+  ],
+  "author": "Jeremy Jacob Anderson",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/defenestrator/appresearch/issues"
+  },
+  "homepage": "https://github.com/defenestrator/appresearch#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-navigation": "*",
+    "@11ty/eleventy-plugin-rss": "*",
+    "@11ty/eleventy-plugin-syntaxhighlight": "*",
+    "luxon": "*",
+    "markdown-it": "*",
+    "markdown-it-anchor": "*",
+    "@skeletonlabs/skeleton": "^2.0.0",
+    "@skeletonlabs/tw-plugin": "^0.1.0",
+    "svelte": "^4.2.0"
+  }
+}
