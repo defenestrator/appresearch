@@ -9,6 +9,4 @@ eleventyNavigation:
 
 Minimalist dark mode starter template for 11ty with support for jsfiddle embeds and prismjs syntax highlighting.
 
-Demo [https://11ty-midnight.netlify.app](https://11ty-midnight.netlify.app)
-
-Github [https://github.com/sidswork/11ty-midnight.git](https://github.com/sidswork/11ty-midnight.git)
+Design very based on this 11ty starter from [@sidswork](https://github.com/sidswork/) [https://github.com/sidswork/11ty-midnight.git](https://github.com/sidswork/11ty-midnight.git)
